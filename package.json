@@ -1,19 +1,22 @@
 {
-  "name": "pentastagiu-cypress",
+  "name": "pentastagiu_cypress",
   "version": "1.0.0",
-  "description": "Pentastagiu cypress",
+  "description": "",
   "main": "index.js",
-  "keywords": [
-    "test",
-    "integration"
-  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alesanu/pentastagiu_nightwatch"
+    "url": "git+https://github.com/CezarWS/pentastagiu_cypress.git"
   },
-  "author": "Alex Lesanu <alesanu@pentalog.com>",
+  "author": "",
   "license": "ISC",
-  "dependencies": {
+  "bugs": {
+    "url": "https://github.com/CezarWS/pentastagiu_cypress/issues"
+  },
+  "homepage": "https://github.com/CezarWS/pentastagiu_cypress#readme",
+  "devDependencies": {
     "cypress": "^3.2.0"
   }
 }
